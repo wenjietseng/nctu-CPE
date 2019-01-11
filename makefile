@@ -7,4 +7,4 @@ all: $(PROGRAM_NAME)
 
 clean:
 	rm -f main.out
-	#rm -rf main.out.dSYM
+	rm -rf main.out.dSYM

@@ -24,12 +24,14 @@ void insert(char *str) {
     str[len] = '\\';
     int u = 0;
     for (int i = 0; i <= len; i++) {
+        // get directory or file name
         string tmp = "";
         while (str[i] != '\\') {
             tmp += str[i];
             i++;
         }
-        if (!node[u].vis.count(tmp)) {
+        // add to map
+        if (!node[u].vis.count(tmp)) { // check if our map has this key, count returns 0 or 1
             node[sz].vis.clear();
             node[sz].name = tmp;
             node[u].vis[tmp] = sz++;
@@ -60,7 +62,7 @@ int main() {
     while (~scanf("%d", &n)) {
         init();
         print(0, -1);
-        printf("\n");
+        // printf("\n");
     }    
     return 0;
 }
