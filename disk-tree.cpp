@@ -19,6 +19,10 @@ struct Node {
 
 int sz;
 
+void insert(char *str);
+void init();
+void print(int u, int d);
+
 void insert(char *str) {
     int len = strlen(str);
     str[len] = '\\';
@@ -46,6 +50,8 @@ void init() {
     while (n--) {
         scanf("%s", str);
         insert(str);
+        // print(0, -1); // to see the process
+        // cout << "----------------------------" << endl;
     }
 }
 

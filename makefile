@@ -1,4 +1,4 @@
-PROGRAM_NAME = brick-wall-pattern.cpp
+PROGRAM_NAME = disktree.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 #-std=c99 
 

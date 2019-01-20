@@ -1,4 +1,5 @@
 // Power strings 10298
+// KMP algorithm, https://yuting-zhang.github.io/uva/2016/03/21/UVa-10298.html
 #include <cstdio>
 #include <cstring>
 #include <algorithm>

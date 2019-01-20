@@ -1,4 +1,5 @@
 // Divisibility uva 10036
+// http://mobcs.blogspot.com/2015/03/uva-10036-divisibility.html
 #include <cstdio>
 #include <cstring>
 #include <algorithm>
@@ -30,6 +31,18 @@ int main() {
         // solve
         clr(dp, false);
         dp[0][0] = true;
-        // http://mobcs.blogspot.com/2015/03/uva-10036-divisibility.html
+
+        FOR(i, 1, n) {
+            clr( dp[C(i)], false);
+            FOR(j, 0, k-1) if (dp[P(i)][j]) {
+                dp[C(i)][((j+seq[i])%k+k)%k] = true;
+                dp[C(i)][((j-seq[i])%k+k)%k] = true;
+            }
+        }
+
+        //output
+        if (dp[C(n)][0]) puts("Divisible");
+        else puts("Not divisible");
     }
+    return 0;
 }
