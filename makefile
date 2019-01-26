@@ -1,4 +1,4 @@
-PROGRAM_NAME = uncompress.cpp
+PROGRAM_NAME = automated-judge.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
