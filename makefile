@@ -1,4 +1,4 @@
-PROGRAM_NAME = longest-increasing-subseq.cpp
+PROGRAM_NAME = light-more-light.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
