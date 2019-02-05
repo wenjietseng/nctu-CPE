@@ -1,4 +1,4 @@
-PROGRAM_NAME = automated-judge.cpp
+PROGRAM_NAME = longest-increasing-subseq.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
