@@ -1,4 +1,4 @@
-PROGRAM_NAME = light-more-light.cpp
+PROGRAM_NAME = an-easy-problem.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 

@@ -8,17 +8,25 @@
 #include <queue>
 #include <stack>
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-unsigned long long int n;
+long int n;
 
 int main() {
-    while (scanf("%llu", &n) && n) {
-        int press = 0;
-        for (int i = 1; i <= n; i++) if (n % i) press++;
-
-        if (press % 2 == 0) cout << "yes" << endl;
+    while (scanf("%ld", &n) && n) {
+        // if odd divisors -> light is on, even divisors -> light is off
+        // square number has odd divisors
+        long root = sqrt(n);
+        if (root*root == n) cout << "yes" << endl;
         else cout << "no" << endl;
+
+        // using loop in this problem cause time limit error (TLE)
+        // int press = 0;
+        // for (int i = 1; i <= n; i++) if (n % i) press++;
+
+        // if (press % 2 == 0) cout << "yes" << endl;
+        // else cout << "no" << endl;
     }
     return 0;
 }
