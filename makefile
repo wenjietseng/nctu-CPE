@@ -1,4 +1,4 @@
-PROGRAM_NAME = an-easy-problem.cpp
+PROGRAM_NAME = dungeon-master.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
