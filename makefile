@@ -1,4 +1,4 @@
-PROGRAM_NAME = dungeon-master.cpp
+PROGRAM_NAME = uncompress2.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
