@@ -1,4 +1,4 @@
-PROGRAM_NAME = uncompress2.cpp
+PROGRAM_NAME = all-u-need-is-love.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 

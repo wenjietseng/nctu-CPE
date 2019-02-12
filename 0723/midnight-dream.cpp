@@ -18,7 +18,7 @@ int main() {
         for (int i = 0; i < n; i++) scanf("%d", &arr[i]);
         sort(arr, arr + n);
         m = arr[(n-1) / 2];
-        M = arr[n / 2];;
+        M = arr[n / 2];
         for (int i = 0; i < n; i++) if (arr[i] == m || arr[i] == M) med_count++;
         printf("%d %d %d\n", m, med_count, M-m+1);
     }
