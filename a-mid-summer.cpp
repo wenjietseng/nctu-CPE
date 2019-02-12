@@ -1,4 +1,5 @@
-// Contest score board - uva 10258
+// A mid-summer night’s dream - uva 10057
+
 // C libraries
 #include <cstdio>
 #include <cstring>
@@ -13,7 +14,9 @@
 #include <map>
 #include <queue>
 #include <stack>
+// namespace
 using namespace std;
+
 // define marcos
 #define MAXN 1000
 
