@@ -1,4 +1,4 @@
-PROGRAM_NAME = rank-language.cpp
+PROGRAM_NAME = sumsets.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 

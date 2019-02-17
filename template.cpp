@@ -4,6 +4,7 @@
 #include <cstdio>
 #include <cstring>
 #include <cmath>
+#include <climits>
 
 // C++ libraries
 #include <iostream>
