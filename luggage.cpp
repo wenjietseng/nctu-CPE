@@ -20,7 +20,7 @@ using namespace std;
 
 // define marcos
 #define MAXN 1000
-int m = 0, weights[30], dp[202];
+int m = 0, weights[25], dp[202];
 
 
 int main() {
@@ -41,15 +41,20 @@ int main() {
         // for (int i = 0; i < n; i++) cout << weights[i] << endl;
         // cout << sum << endl;
 
-        // dp
-        memset(dp, 0, sizeof(dp));
-        dp[0] = 1;
-        for (int i = 0; i < n; i++)
-            for (int j = sum; j >= weights[i]; j--)
-                if (dp[j-weights[i]]) dp[j] = 1;
+        if (sum % 2 == 1 || n == 1) cout << "NO" << endl;
+        else {
+            // dp
+            memset(dp, 0, sizeof(dp));
+            dp[0] = 1;
+            sum /= 2;
+            for (int i = 0; i < n; i++)
+                for (int j = sum; j >= weights[i]; j--)
+                    if (dp[j-weights[i]]) dp[j] = 1;
+            
         
-        if (sum % 2 == 1 || !dp[sum/2]) cout << "NO" << endl;
-        else cout << "Yes" << endl;    
+            if (dp[sum] == 1) cout << "Yes" << endl;
+            else cout << "NO" << endl;    
+        }
     }
     return 0;
 }

@@ -1,4 +1,5 @@
-// Contest score board - uva 10258
+// Set partition - uva 
+
 // C libraries
 #include <cstdio>
 #include <cstring>
@@ -14,20 +15,13 @@
 #include <map>
 #include <queue>
 #include <stack>
+// namespace
 using namespace std;
+
 // define marcos
 #define MAXN 1000
 
-int scoreboard[100+5][3]; // contestant number_of_correct_problems penalty
-int incorrectboard[100+5][10];
-
 int main() {
-    int test_cases = 0;
-    scanf("%d", &test_cases);
-    getchar();
-    while (test_cases--) {
-        
-        printf("\n");
-    }
+
     return 0;
 }

@@ -1,4 +1,4 @@
-PROGRAM_NAME = sumsets.cpp
+PROGRAM_NAME = bit-mask2.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
