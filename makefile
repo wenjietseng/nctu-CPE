@@ -1,4 +1,4 @@
-PROGRAM_NAME = bit-mask2.cpp
+PROGRAM_NAME = sum-of-primes.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
