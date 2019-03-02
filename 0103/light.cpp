@@ -1,4 +1,4 @@
-// Set partition - uva 
+// Light, more light - uva 10110
 
 // C libraries
 #include <cstdio>
@@ -18,10 +18,12 @@
 // namespace
 using namespace std;
 
-// define marcos
-#define MAXN 1000
-
 int main() {
-
+    long n;
+    while (scanf("%ld", &n) == 1 && n) {
+        long root = sqrt(n);
+        if (root * root == n) printf("yes\n");
+        else printf("no\n");
+    }
     return 0;
 }

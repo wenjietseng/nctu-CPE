@@ -1,4 +1,4 @@
-PROGRAM_NAME = lcs-3.cpp
+PROGRAM_NAME = quirksome-squares.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
