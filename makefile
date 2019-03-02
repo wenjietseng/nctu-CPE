@@ -1,4 +1,4 @@
-PROGRAM_NAME = sum-of-primes.cpp
+PROGRAM_NAME = lcs-3.cpp
 CC = g++#gcc
 CFLAGS = -g -Wall -O2 -lm#-std=c99 
 
