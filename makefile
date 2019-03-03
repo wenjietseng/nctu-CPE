@@ -1,6 +1,6 @@
-PROGRAM_NAME = quirksome-squares.cpp
+PROGRAM_NAME = dungeon-3.cpp
 CC = g++#gcc
-CFLAGS = -g -Wall -O2 -lm#-std=c99 
+CFLAGS = -g -Wall -O2 -lm #-std=c99 
 
 all: $(PROGRAM_NAME)
 	$(CC) $(CFLAGS) -o main.out $(PROGRAM_NAME)
